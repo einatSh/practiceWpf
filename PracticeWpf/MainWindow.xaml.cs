@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using PracticeWpf.PresentationLayer;
+using PracticeWpf.Logger;
 
 namespace PracticeWpf
 {
@@ -23,9 +24,20 @@ namespace PracticeWpf
     {
         public MainWindow()
         {
+            
+            Log.Instance.debug("Debugged successfully");//log
+            Log.Instance.info("Chat Room initiated successfully");//log
             InitializeComponent();
             media.Play();
             Main.Content = new MainScreen();
+            this.Closed += closed; //add evant to Closed
+        }
+
+        //If program is closed
+        private void closed(object sender, System.EventArgs e)
+        {
+            Log.Instance.info("Chat Room closed - logged out and exit system");//log
+            this.Close();
         }
 
         private void musicOn(object sender, RoutedEventArgs e)
@@ -39,6 +51,11 @@ namespace PracticeWpf
         }
 
         private void Main_Navigated(object sender, NavigationEventArgs e)
+        {
+
+        }
+
+        private void Window_Closed(object sender, EventArgs e)
         {
 
         }

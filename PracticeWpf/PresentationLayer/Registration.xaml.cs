@@ -20,9 +20,18 @@ namespace PracticeWpf.PresentationLayer
     /// </summary>
     public partial class Registration : Page
     {
+        private char gender;
+        private bool sendClicked;
+        private string name;
+        private string id;
+
         public Registration()
         {
             InitializeComponent();
+            gender = 'n';
+            sendClicked = false;
+            name = null;
+            id = null;
         }
 
         private void about(object sender, RoutedEventArgs e)
@@ -32,27 +41,36 @@ namespace PracticeWpf.PresentationLayer
 
         private void g_idChange(object sender, TextChangedEventArgs e)
         {
-
+            id = Id.Text;
         }
 
         private void nicknameChange(object sender, TextChangedEventArgs e)
         {
-
+            name = Name.Text;
         }
 
         private void send(object sender, RoutedEventArgs e)
         {
+            //if user or id is null throw some warning and add to counter
+
+            sendClicked = true;
 
         }
 
         private void genderM(object sender, RoutedEventArgs e)
         {
-
+            gender = 'm';
         }
 
         private void genderF(object sender, RoutedEventArgs e)
         {
+            gender = 'f';
+        }
 
+        public char Gender
+        {
+            get { return gender; }
+            set { }
         }
     }
 }

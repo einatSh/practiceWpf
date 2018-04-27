@@ -2,10 +2,10 @@
 using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-using MileStoneClient.BusinessLayer;
+using PracticeWpf.BusinessLayer;
 using System.Collections.Generic;
 
-namespace MileStoneClient.PresistentLayer
+namespace PracticeWpf.PresistentLayer
 {
     [Serializable]
     /// <summary>

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MileStoneClient.PresistentLayer;
-using MileStoneClient.CommunicationLayer;
+using PracticeWpf.PresistentLayer;
+using PracticeWpf.CommunicationLayer;
 using System.IO;
 
-namespace MileStoneClient.BusinessLayer
+namespace PracticeWpf.BusinessLayer
 {
 
     [Serializable]

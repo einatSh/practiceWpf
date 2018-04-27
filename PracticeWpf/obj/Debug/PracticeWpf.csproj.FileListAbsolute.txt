@@ -30,3 +30,5 @@ c:\users\einat\source\repos\PracticeWpf\PracticeWpf\obj\Debug\PracticeWpf.csproj
 c:\users\einat\source\repos\PracticeWpf\PracticeWpf\obj\Debug\PracticeWpf.csproj.CopyComplete
 c:\users\einat\source\repos\PracticeWpf\PracticeWpf\obj\Debug\PracticeWpf.exe
 c:\users\einat\source\repos\PracticeWpf\PracticeWpf\obj\Debug\PracticeWpf.pdb
+C:\Users\einat\source\repos\PracticeWpf\PracticeWpf\bin\Debug\App.config
+C:\Users\einat\source\repos\PracticeWpf\PracticeWpf\obj\Debug\PracticeWpf_Content.g.cs

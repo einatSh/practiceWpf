@@ -10,7 +10,8 @@
         d:DesignHeight="650" d:DesignWidth="1000"
         SizeToContent="WidthAndHeight"
         WindowStartupLocation="CenterScreen"
-        ShowInTaskbar="True">
+        ShowInTaskbar="True"
+        Closed="Window_Closed">
     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
         <Frame Name="Main" HorizontalAlignment="Left" Height="621" VerticalAlignment="Top" Width="1000" Navigated="Main_Navigated" Content="null" Margin="0,0,-6,0"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="575" Margin="10,36,0,0" VerticalAlignment="Top" Width="974"/>

@@ -15,13 +15,13 @@
             </TextBlock.Effect>
         </TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="184,117,0,0" TextWrapping="Wrap" Text="'TURN US AWAY, AND WE WILL BURN YOU FIRST.'" VerticalAlignment="Top" Height="30" Width="629" FontFamily="Viner Hand ITC" FontSize="24"/>
-        <TextBlock HorizontalAlignment="Left" Margin="706,152,0,0" TextWrapping="Wrap" Text="~Cersei Lannister" VerticalAlignment="Top" Height="30" Width="161" FontFamily="Viner Hand ITC" FontSize="17"/>
+        <TextBlock HorizontalAlignment="Left" Margin="760,152,0,0" TextWrapping="Wrap" Text="~Daenerys" VerticalAlignment="Top" Height="30" Width="107" FontFamily="Viner Hand ITC" FontSize="17"/>
         <TextBlock HorizontalAlignment="Left" Margin="222,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="112" FontSize="28" FontFamily="Gloucester MT Extra Condensed">
             <TextBlock.Effect>
                 <DropShadowEffect Color="#FFBDBCBC"/>
             </TextBlock.Effect><Run Text="Grou"/><Run Text="p ID:"/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Height="38" Margin="428,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextChanged="g_idChange"/>
-        <TextBlock HorizontalAlignment="Left" Margin="222,343,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="92" FontSize="36" FontFamily="Gloucester MT Extra Condensed">
+        <TextBox Name="Id" HorizontalAlignment="Left" Height="38" Margin="428,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextChanged="g_idChange"/>
+        <TextBlock Name="Name" HorizontalAlignment="Left" Margin="222,343,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="92" FontSize="36" FontFamily="Gloucester MT Extra Condensed">
             <TextBlock.Effect>
                 <DropShadowEffect Color="#FFBDBCBC"/>
             </TextBlock.Effect><Run FontSize="28" Text="Nickname"/><Run Text=":"/></TextBlock>

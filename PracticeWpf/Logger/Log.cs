@@ -2,15 +2,16 @@
 using log4net;
 using log4net.Config;
 
-namespace MileStoneClient.Logger
+namespace PracticeWpf.Logger
 {
     //Singleton class Log
     class Log
     {
         private static Log instance = null;
         private static readonly object padlock = new object();
+        //private static readonly ILog log = LogManager.GetLogger(typeof(App));
         private static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-
+       
         //private constructor for singleton
         private Log()
         {

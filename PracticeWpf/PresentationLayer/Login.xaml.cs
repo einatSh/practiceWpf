@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PracticeWpf.BusinessLayer;
+using PracticeWpf.Logger;
 
 namespace PracticeWpf.PresentationLayer
 {
@@ -20,9 +22,14 @@ namespace PracticeWpf.PresentationLayer
     /// </summary>
     public partial class Login : Page
     {
+        private string name;
+        private string id;
+
         public Login()
         {
             InitializeComponent();
+            name = null;
+            id = null;
         }
 
         private void about(object sender, RoutedEventArgs e)
@@ -32,17 +39,23 @@ namespace PracticeWpf.PresentationLayer
 
         private void g_idChange(object sender, TextChangedEventArgs e)
         {
-
+            id = Id.Text;
         }
 
         private void nicknameChange(object sender, TextChangedEventArgs e)
         {
-
+            name = Name.Text;
         }
 
         private void send(object sender, RoutedEventArgs e)
         {
-            NavigationService.GetNavigationService(this).Navigate(new ChatRoom());
+            //no input in one or more fields
+            if(name == null || id == null)
+            {
+                MessageBox.Show("Invalid input - please note that the feilds can't remain empty!");
+            }
+            else
+                NavigationService.GetNavigationService(this).Navigate(new ChatRoom());
         }
     }
 }

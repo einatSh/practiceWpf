@@ -17,10 +17,10 @@
             <TextBlock.Effect>
                 <DropShadowEffect Color="#FFBDBCBC"/>
             </TextBlock.Effect><Run Text="Grou"/><Run Text="p ID:"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="282,115,0,0" TextWrapping="Wrap" Text="'WE GO FORWARD. ONLY FORWARD.'" VerticalAlignment="Top" Height="30" Width="440" FontFamily="Viner Hand ITC" FontSize="24"/>
-        <TextBlock HorizontalAlignment="Left" Margin="662,150,0,0" TextWrapping="Wrap" Text="~Stannis Baratheon" VerticalAlignment="Top" Height="30" Width="234" FontFamily="Viner Hand ITC" FontSize="17"/>
-        <TextBox HorizontalAlignment="Left" Height="38" Margin="393,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextChanged="g_idChange"/>
-        <TextBlock HorizontalAlignment="Left" Margin="218,366,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="92" FontSize="36" FontFamily="Gloucester MT Extra Condensed">
+        <TextBlock HorizontalAlignment="Left" Margin="162,110,0,0" TextWrapping="Wrap" Text="'When you play the game of ChatRooms, you win or you die.'" VerticalAlignment="Top" Height="30" Width="686" FontFamily="Viner Hand ITC" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="748,145,0,0" TextWrapping="Wrap" Text="~Cersei Lannister" VerticalAlignment="Top" Height="30" Width="148" FontFamily="Viner Hand ITC" FontSize="17"/>
+        <TextBox Name="Id" HorizontalAlignment="Left" Height="38" Margin="393,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextChanged="g_idChange"/>
+        <TextBlock Name="Name" HorizontalAlignment="Left" Margin="218,366,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="92" FontSize="36" FontFamily="Gloucester MT Extra Condensed">
             <TextBlock.Effect>
                 <DropShadowEffect Color="#FFBDBCBC"/>
             </TextBlock.Effect><Run FontSize="28" Text="Nickname"/><Run Text=":"/></TextBlock>

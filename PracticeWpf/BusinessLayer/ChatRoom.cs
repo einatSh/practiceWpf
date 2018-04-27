@@ -4,10 +4,10 @@ using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MileStoneClient.CommunicationLayer;
-using MileStoneClient.PresistentLayer;
+using PracticeWpf.CommunicationLayer;
+using PracticeWpf.PresistentLayer;
 
-namespace MileStoneClient.BusinessLayer
+namespace PracticeWpf.BusinessLayer
 {
     class ChatRoom
     {

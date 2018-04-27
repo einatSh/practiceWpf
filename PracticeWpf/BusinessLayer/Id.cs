@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MileStoneClient.BusinessLayer
+namespace PracticeWpf.BusinessLayer
 {
 
     [Serializable]

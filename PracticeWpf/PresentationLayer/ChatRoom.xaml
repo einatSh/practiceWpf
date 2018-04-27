@@ -5,25 +5,25 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:PracticeWpf.PresentationLayer"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="650" d:DesignWidth="1000"
       Title="ChatRoom">
 
     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-        <TextBlock HorizontalAlignment="Left" Margin="247,7,0,0" TextWrapping="Wrap" Text="ChatRoom21 " VerticalAlignment="Top" Height="60" Width="275" FontFamily="Old English Text MT" FontSize="50" FontWeight="Bold" TextDecorations="Underline" FontStyle="Italic"/>
-        <TextBlock HorizontalAlignment="Left" Margin="138,77,0,0" TextWrapping="Wrap" Text="'When you play the game of ChatRooms, you win or you die.'" VerticalAlignment="Top" Height="30" Width="510" FontFamily="Viner Hand ITC" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Margin="615,107,0,0" TextWrapping="Wrap" Text="~Cersei Lannister" VerticalAlignment="Top" Height="30" Width="133" FontFamily="Viner Hand ITC" FontSize="15"/>
-        <Button Content="Send" HorizontalAlignment="Left" Margin="650,347,0,0" VerticalAlignment="Top" Width="98" Height="32" Background="{x:Null}" FontSize="20" FontFamily="Gloucester MT Extra Condensed" BorderBrush="#FF1B0000" Click="send"/>
-        <Button Content="?" HorizontalAlignment="Left" Margin="719,7,0,0" VerticalAlignment="Top" Width="53" Height="42" Click="about" Opacity="0.995" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="20">
+        <TextBlock HorizontalAlignment="Left" Margin="350,18,0,0" TextWrapping="Wrap" Text="ChatRoom21 " VerticalAlignment="Top" Height="60" Width="299" FontFamily="Old English Text MT" FontSize="50" FontWeight="Bold" TextDecorations="Underline" FontStyle="Italic"/>
+        <TextBlock HorizontalAlignment="Left" Margin="384,78,0,0" TextWrapping="Wrap" Text="'I AM THE GIFT.'" VerticalAlignment="Top" Height="35" Width="204" FontFamily="Viner Hand ITC" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="522,113,0,0" TextWrapping="Wrap" Text="~Tyrion Lannister" VerticalAlignment="Top" Height="30" Width="171" FontFamily="Viner Hand ITC" FontSize="17"/>
+        <Button Content="Send" HorizontalAlignment="Left" Margin="839,545,0,0" VerticalAlignment="Top" Width="98" Height="32" Background="{x:Null}" FontSize="20" FontFamily="Gloucester MT Extra Condensed" BorderBrush="#FF1B0000" Click="send"/>
+        <Button Content="?" HorizontalAlignment="Left" Margin="919,34,0,0" VerticalAlignment="Top" Width="53" Height="42" Click="about" Opacity="0.995" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="30">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <ScrollViewer HorizontalAlignment="Left" Height="190" Margin="188,143,0,0" VerticalAlignment="Top" Width="560">
-            <Rectangle Fill="white" Height="190" Width="558"/>
-        </ScrollViewer>
-        <TextBox HorizontalAlignment="Left" Height="32" Margin="188,347,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="440" TextChanged="messageSent"/>
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="190" Margin="188,143,0,0" VerticalAlignment="Top" Width="543"/>
-        <Button Content="Options" HorizontalAlignment="Left" Margin="47,143,0,0" VerticalAlignment="Top" Width="75" Click="optionBtn"/>
-        <Frame x:Name="optionFrame" Content="Frame" HorizontalAlignment="Left" Height="170" Margin="33,163,0,0" VerticalAlignment="Top" Width="104" Navigated="optionFrame_Navigated"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="365" Margin="188,163,0,0" VerticalAlignment="Top" Width="749"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="188,545,0,0" TextWrapping="Wrap" SpellCheck.IsEnabled="True" Text="TextBox" VerticalAlignment="Top" Width="633" TextChanged="messageSent"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="365" Margin="188,163,0,0" VerticalAlignment="Top" Width="749">
+            <Rectangle Fill="white" Margin="-1"/>
+        </Border>
+        <Button Content="Options" HorizontalAlignment="Left" Margin="45,163,0,0" VerticalAlignment="Top" Width="82" Click="optionBtn" Height="30" FontSize="20" FontFamily="Gloucester MT Extra Condensed"/>
+        <Frame x:Name="optionFrame" Content="Frame" HorizontalAlignment="Left" Height="319" Margin="25,209,0,0" VerticalAlignment="Top" Width="126" Navigated="optionFrame_Navigated"/>
     </Grid>
 </Page>
