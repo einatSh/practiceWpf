@@ -5,15 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PracticeWpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
-        SizeToContent="WidthAndHeight">
+        Title="MainWindow" 
+        ResizeMode="NoResize"
+        d:DesignHeight="650" d:DesignWidth="1000"
+        SizeToContent="WidthAndHeight"
+        WindowStartupLocation="CenterScreen"
+        ShowInTaskbar="True">
     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-        <Frame Name="Main" HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="800" Navigated="Main_Navigated" Content="null"/>
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="401" Margin="10,10,0,0" VerticalAlignment="Top" Width="772"/>
+        <Frame Name="Main" HorizontalAlignment="Left" Height="621" VerticalAlignment="Top" Width="1000" Navigated="Main_Navigated" Content="null" Margin="0,0,-6,0"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="575" Margin="10,36,0,0" VerticalAlignment="Top" Width="974"/>
         <MediaElement HorizontalAlignment="Left" Height="9" Margin="10,41,0,0" VerticalAlignment="Top" Width="17" LoadedBehavior="Manual" UnloadedBehavior="Stop" Source="C:\Users\einat\source\repos\PracticeWpf\PracticeWpf\Media\Audio\Game Of Thrones .mp3" x:Name="media"/>
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="40" Margin="10,371,0,0" VerticalAlignment="Top" Width="86" Opacity="0.6"/>
-        <RadioButton Content="Music on" HorizontalAlignment="Left" Margin="10,371,0,0" VerticalAlignment="Top" Width="100" Checked="musicOn"/>
-        <RadioButton Content="Music off" HorizontalAlignment="Left" Margin="10,391,0,0" VerticalAlignment="Top" Width="100" Checked="musicOff"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="40" Margin="10,571,0,0" VerticalAlignment="Top" Width="86" Opacity="0.6"/>
+        <RadioButton Content="Music on" HorizontalAlignment="Left" Margin="24,576,0,0" VerticalAlignment="Top" Width="100" Checked="musicOn"/>
+        <RadioButton Content="Music off" HorizontalAlignment="Left" Margin="24,591,0,0" VerticalAlignment="Top" Width="100" Checked="musicOff"/>
         <Grid.Background>
             <ImageBrush ImageSource="C:\Users\einat\source\repos\PracticeWpf\PracticeWpf\Media\Images\226091.jpg" Stretch="UniformToFill" Opacity="0.6"/>
         </Grid.Background>

@@ -5,18 +5,36 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:PracticeWpf.PresentationLayer"
       mc:Ignorable="d"
-      Title="Login" Width="822.5" Height="462">
+      Title="Login" Width="1000" Height="650">
 
     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-        <TextBlock HorizontalAlignment="Left" Margin="340,15,0,0" TextWrapping="Wrap" Text="Login " VerticalAlignment="Top" Height="64" Width="149" FontFamily="Old English Text MT" FontSize="50" FontWeight="Bold" TextDecorations="Underline" FontStyle="Italic"/>
-        <TextBlock HorizontalAlignment="Left" Margin="198,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="112" FontSize="28" FontFamily="Gloucester MT Extra Condensed"><Run Text="Grou"/><Run Text="p ID:"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="259,80,0,0" TextWrapping="Wrap" Text="'WE GO FORWARD. ONLY FORWARD.'" VerticalAlignment="Top" Height="30" Width="330" FontFamily="Viner Hand ITC" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Margin="521,107,0,0" TextWrapping="Wrap" Text="~Stannis Baratheon" VerticalAlignment="Top" Height="30" Width="234" FontFamily="Viner Hand ITC" FontSize="15"/>
-        <TextBox HorizontalAlignment="Left" Height="38" Margin="345,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextChanged="g_idChange"/>
-        <TextBlock HorizontalAlignment="Left" Margin="198,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="92" FontSize="36" FontFamily="Gloucester MT Extra Condensed"><Run FontSize="28" Text="Nickname"/><Run Text=":"/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Height="38" Margin="345,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextChanged="nicknameChange"/>
-        <Button Content="Send" HorizontalAlignment="Left" Margin="615,242,0,0" VerticalAlignment="Top" Width="114" Height="38" Background="{x:Null}" FontSize="20" FontFamily="Gloucester MT Extra Condensed" BorderBrush="#FF1B0000" Click="send"/>
-        <Button Content="?" HorizontalAlignment="Left" Margin="729,15,0,0" VerticalAlignment="Top" Width="53" Height="42" Click="about" Opacity="0.995" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="424,34,0,0" TextWrapping="Wrap" Text="Login " VerticalAlignment="Top" Height="76" Width="190" FontFamily="Old English Text MT" FontSize="60" FontWeight="Bold" TextDecorations="Underline" FontStyle="Italic">
+            <TextBlock.Effect>
+                <DropShadowEffect Color="#FFBDBCBC"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="218,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="112" FontSize="28" FontFamily="Gloucester MT Extra Condensed">
+            <TextBlock.Effect>
+                <DropShadowEffect Color="#FFBDBCBC"/>
+            </TextBlock.Effect><Run Text="Grou"/><Run Text="p ID:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="282,115,0,0" TextWrapping="Wrap" Text="'WE GO FORWARD. ONLY FORWARD.'" VerticalAlignment="Top" Height="30" Width="440" FontFamily="Viner Hand ITC" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="662,150,0,0" TextWrapping="Wrap" Text="~Stannis Baratheon" VerticalAlignment="Top" Height="30" Width="234" FontFamily="Viner Hand ITC" FontSize="17"/>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="393,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextChanged="g_idChange"/>
+        <TextBlock HorizontalAlignment="Left" Margin="218,366,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="92" FontSize="36" FontFamily="Gloucester MT Extra Condensed">
+            <TextBlock.Effect>
+                <DropShadowEffect Color="#FFBDBCBC"/>
+            </TextBlock.Effect><Run FontSize="28" Text="Nickname"/><Run Text=":"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="393,366,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextChanged="nicknameChange"/>
+        <Button Content="Send" HorizontalAlignment="Left" Margin="782,366,0,0" VerticalAlignment="Top" Width="114" Height="38" Background="{x:Null}" FontSize="20" FontFamily="Gloucester MT Extra Condensed" BorderBrush="#FF1B0000" Click="send">
+            <Button.Effect>
+                <DropShadowEffect Color="#FFBDBCBC"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="?" HorizontalAlignment="Left" Margin="919,34,0,0" VerticalAlignment="Top" Width="53" Height="42" Click="about" Opacity="0.995" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="30">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
 
     </Grid>
 </Page>

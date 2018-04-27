@@ -5,21 +5,39 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:PracticeWpf.PresentationLayer"
       mc:Ignorable="d" 
-      d:DesignHeight="469.5" d:DesignWidth="812"
+      d:DesignHeight="650" d:DesignWidth="1000"
       Title="Registration">
 
     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-        <TextBlock HorizontalAlignment="Left" Margin="247,7,0,0" TextWrapping="Wrap" Text="Registration " VerticalAlignment="Top" Height="60" Width="275" FontFamily="Old English Text MT" FontSize="50" FontWeight="Bold" TextDecorations="Underline" FontStyle="Italic"/>
-        <TextBlock HorizontalAlignment="Left" Margin="138,77,0,0" TextWrapping="Wrap" Text="'When you play the game of ChatRooms, you win or you die.'" VerticalAlignment="Top" Height="30" Width="510" FontFamily="Viner Hand ITC" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Margin="615,107,0,0" TextWrapping="Wrap" Text="~Cersei Lannister" VerticalAlignment="Top" Height="30" Width="133" FontFamily="Viner Hand ITC" FontSize="15"/>
-        <TextBlock HorizontalAlignment="Left" Margin="138,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="112" FontSize="28" FontFamily="Gloucester MT Extra Condensed"><Run Text="Grou"/><Run Text="p ID:"/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Height="38" Margin="301,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextChanged="g_idChange"/>
-        <TextBlock HorizontalAlignment="Left" Margin="138,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="92" FontSize="36" FontFamily="Gloucester MT Extra Condensed"><Run FontSize="28" Text="Nickname"/><Run Text=":"/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Height="38" Margin="301,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextChanged="nicknameChange"/>
-        <Button Content="Send" HorizontalAlignment="Left" Margin="615,285,0,0" VerticalAlignment="Top" Width="114" Height="38" Background="{x:Null}" FontSize="20" FontFamily="Gloucester MT Extra Condensed" BorderBrush="#FF1B0000" Click="send"/>
-        <Button Content="?" HorizontalAlignment="Left" Margin="719,7,0,0" VerticalAlignment="Top" Width="53" Height="42" Click="about" Opacity="0.995" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="20"/>
-        <RadioButton Content="Male" HorizontalAlignment="Left" Margin="301,300,0,0" VerticalAlignment="Top" Width="53" Height="25" Checked="genderM"/>
-        <RadioButton Content="Female" HorizontalAlignment="Left" Margin="375,300,0,0" VerticalAlignment="Top" Width="67" Height="25" Checked="genderF"/>
+        <TextBlock HorizontalAlignment="Left" Margin="321,34,0,0" TextWrapping="Wrap" Text="Registration " VerticalAlignment="Top" Height="78" Width="354" FontFamily="Old English Text MT" FontSize="60" FontWeight="Bold" TextDecorations="Underline" FontStyle="Italic">
+            <TextBlock.Effect>
+                <DropShadowEffect Color="#FFBDBCBC"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="184,117,0,0" TextWrapping="Wrap" Text="'TURN US AWAY, AND WE WILL BURN YOU FIRST.'" VerticalAlignment="Top" Height="30" Width="629" FontFamily="Viner Hand ITC" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="706,152,0,0" TextWrapping="Wrap" Text="~Cersei Lannister" VerticalAlignment="Top" Height="30" Width="161" FontFamily="Viner Hand ITC" FontSize="17"/>
+        <TextBlock HorizontalAlignment="Left" Margin="222,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="112" FontSize="28" FontFamily="Gloucester MT Extra Condensed">
+            <TextBlock.Effect>
+                <DropShadowEffect Color="#FFBDBCBC"/>
+            </TextBlock.Effect><Run Text="Grou"/><Run Text="p ID:"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="428,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextChanged="g_idChange"/>
+        <TextBlock HorizontalAlignment="Left" Margin="222,343,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="92" FontSize="36" FontFamily="Gloucester MT Extra Condensed">
+            <TextBlock.Effect>
+                <DropShadowEffect Color="#FFBDBCBC"/>
+            </TextBlock.Effect><Run FontSize="28" Text="Nickname"/><Run Text=":"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="428,343,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextChanged="nicknameChange"/>
+        <Button Content="Send" HorizontalAlignment="Left" Margin="753,401,0,0" VerticalAlignment="Top" Width="114" Height="38" Background="{x:Null}" FontSize="20" FontFamily="Gloucester MT Extra Condensed" BorderBrush="#FF1B0000" Click="send">
+            <Button.Effect>
+                <DropShadowEffect Color="#FFBDBCBC"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="?" HorizontalAlignment="Left" Margin="919,34,0,0" VerticalAlignment="Top" Width="71" Height="60" Click="about" Opacity="0.995" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="36">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <RadioButton Content="Male" HorizontalAlignment="Left" Margin="428,414,0,0" VerticalAlignment="Top" Width="53" Height="25" Checked="genderM"/>
+        <RadioButton Content="Female" HorizontalAlignment="Left" Margin="534,414,0,0" VerticalAlignment="Top" Width="67" Height="25" Checked="genderF"/>
 
     </Grid>
 </Page>

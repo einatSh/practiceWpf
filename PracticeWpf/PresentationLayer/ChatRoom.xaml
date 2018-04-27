@@ -13,7 +13,11 @@
         <TextBlock HorizontalAlignment="Left" Margin="138,77,0,0" TextWrapping="Wrap" Text="'When you play the game of ChatRooms, you win or you die.'" VerticalAlignment="Top" Height="30" Width="510" FontFamily="Viner Hand ITC" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="615,107,0,0" TextWrapping="Wrap" Text="~Cersei Lannister" VerticalAlignment="Top" Height="30" Width="133" FontFamily="Viner Hand ITC" FontSize="15"/>
         <Button Content="Send" HorizontalAlignment="Left" Margin="650,347,0,0" VerticalAlignment="Top" Width="98" Height="32" Background="{x:Null}" FontSize="20" FontFamily="Gloucester MT Extra Condensed" BorderBrush="#FF1B0000" Click="send"/>
-        <Button Content="?" HorizontalAlignment="Left" Margin="719,7,0,0" VerticalAlignment="Top" Width="53" Height="42" Click="about" Opacity="0.995" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="20"/>
+        <Button Content="?" HorizontalAlignment="Left" Margin="719,7,0,0" VerticalAlignment="Top" Width="53" Height="42" Click="about" Opacity="0.995" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="20">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
         <ScrollViewer HorizontalAlignment="Left" Height="190" Margin="188,143,0,0" VerticalAlignment="Top" Width="560">
             <Rectangle Fill="white" Height="190" Width="558"/>
         </ScrollViewer>

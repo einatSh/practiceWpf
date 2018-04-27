@@ -27,9 +27,9 @@ namespace PracticeWpf.PresentationLayer
 
         private void about(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Info101: This button is useless, \n" +
-                "I put it here for no reason at all " +
-                "But we will keep it here forever and ever");
+            MessageBox.Show("Info101: This button is useless, \nI put it here for no reason at all \nwe will keep it here forever");
+            
+
         }
 
         private void Registeration(object sender, RoutedEventArgs e)
