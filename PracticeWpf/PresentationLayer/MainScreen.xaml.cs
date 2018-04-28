@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PracticeWpf.CustumeForms;
 
 namespace PracticeWpf.PresentationLayer
 {
@@ -27,7 +28,7 @@ namespace PracticeWpf.PresentationLayer
 
         private void about(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Info101: This button is useless, \nI put it here for no reason at all \nwe will keep it here forever");
+            messageBox.show("Info101: This button is useless, I put it here for no reason at all \nwe will keep it here forever");
             
 
         }

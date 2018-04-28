@@ -33,3 +33,10 @@ c:\users\einat\source\repos\PracticeWpf\PracticeWpf\obj\Debug\PracticeWpf.pdb
 C:\Users\einat\source\repos\PracticeWpf\PracticeWpf\bin\Debug\App.config
 C:\Users\einat\source\repos\PracticeWpf\PracticeWpf\obj\Debug\PracticeWpf_Content.g.cs
 C:\Users\einat\source\repos\PracticeWpf\PracticeWpf\bin\Debug\log4net.config
+C:\Users\einat\source\repos\PracticeWpf\PracticeWpf\obj\Debug\PracticeWpf.msgBox.resources
+C:\Users\einat\source\repos\PracticeWpf\PracticeWpf\bin\Debug\Interop.WMPLib.dll
+C:\Users\einat\source\repos\PracticeWpf\PracticeWpf\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\einat\source\repos\PracticeWpf\PracticeWpf\obj\Debug\Interop.WMPLib.dll
+C:\Users\einat\source\repos\PracticeWpf\PracticeWpf\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\einat\source\repos\PracticeWpf\PracticeWpf\obj\Debug\PracticeWpf.csproj.ResolveComReference.cache
+C:\Users\einat\source\repos\PracticeWpf\PracticeWpf\obj\Debug\PracticeWpf.CustumeForms.vidBox.resources
