@@ -17,10 +17,12 @@ namespace PracticeWpf
         protected override void OnStartup(StartupEventArgs e)
         {
             log4net.Config.XmlConfigurator.Configure();
-            base.OnStartup(e);
+            //base.OnStartup(e);
 
-            Current.MainWindow = new MainWindow();
             
+
+            //Current.MainWindow = new MainWindow();
+
             //Log.Instance.info("        =============  Started Logging  =============        ");
         }
     }
